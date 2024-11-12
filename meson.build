@@ -1,4 +1,4 @@
-project('gtk4-hello', 'c')
+project('CayLauncher', 'c')
 gtk_dep = dependency('gtk4')
 
 windows = import('windows')
@@ -7,7 +7,7 @@ if host_machine.system() == 'windows'
     windows_args = ['-mwindows']
 endif
 
-executable('gtk4-hello', 'main.c', 
+executable('CayLauncher', 'main.c', 
     dependencies: [gtk_dep],
     c_args: windows_args,
     win_subsystem: 'windows')

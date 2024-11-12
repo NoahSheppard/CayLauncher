@@ -7,8 +7,7 @@
 
 2. **Clone the Repository**
     ```sh
-    git clone https://github.com/yourusername/testing-gtk4.git
-    cd testing-gtk4
+    git clone https://github.com/NoahSheppard/CayLauncher.git
     ```
 
 3. **Run the Installation Script**
